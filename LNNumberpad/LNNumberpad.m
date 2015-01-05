@@ -224,9 +224,9 @@
     if (textInput) {
         if (textRange) {
             // Calculate the NSRange for the textInput text in the UITextRange textRange:
-            int startPos                    = [textInput offsetFromPosition:textInput.beginningOfDocument
+            NSInteger startPos                    = [textInput offsetFromPosition:textInput.beginningOfDocument
                                                                  toPosition:textRange.start];
-            int length                      = [textInput offsetFromPosition:textRange.start
+            NSInteger length                      = [textInput offsetFromPosition:textRange.start
                                                                  toPosition:textRange.end];
             NSRange selectedRange           = NSMakeRange(startPos, length);
             

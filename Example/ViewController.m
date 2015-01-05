@@ -48,6 +48,8 @@
     
     // The "normal" numberpad
     self.myTextView.inputView   = [LNNumberpad defaultLNNumberpad];
+    
+    self.myHexTextView.inputView = [[[NSBundle mainBundle] loadNibNamed:@"HexKeyboard" owner:self options:nil] objectAtIndex:0];
 }
 
 - (void)viewDidUnload

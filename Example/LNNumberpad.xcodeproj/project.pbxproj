@@ -18,6 +18,11 @@
 		19A0EAB71651961A001B196E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A0EAB61651961A001B196E /* main.m */; };
 		19A0EAB916519661001B196E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A0EAB816519661001B196E /* ViewController.m */; };
 		19A0EABB1651967C001B196E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A0EABA1651967C001B196E /* AppDelegate.m */; };
+		BE2BBBC01A5A432700AF6C3B /* actionKeyBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBBBB1A5A432700AF6C3B /* actionKeyBackground@2x.png */; };
+		BE2BBBC11A5A432700AF6C3B /* backspacekey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBBBC1A5A432700AF6C3B /* backspacekey@2x.png */; };
+		BE2BBBC21A5A432700AF6C3B /* doneKey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBBBD1A5A432700AF6C3B /* doneKey@2x.png */; };
+		BE2BBBC31A5A432700AF6C3B /* HexKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBBBE1A5A432700AF6C3B /* HexKeyboard.xib */; };
+		BE2BBBC41A5A432700AF6C3B /* keyBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBBBF1A5A432700AF6C3B /* keyBackground@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		19A0EAB816519661001B196E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
 		19A0EABA1651967C001B196E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		19EE517F1655306C00F85851 /* CHANGELOG */ = {isa = PBXFileReference; lastKnownFileType = text; name = CHANGELOG; path = ../CHANGELOG; sourceTree = "<group>"; };
+		BE2BBBBB1A5A432700AF6C3B /* actionKeyBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "actionKeyBackground@2x.png"; sourceTree = "<group>"; };
+		BE2BBBBC1A5A432700AF6C3B /* backspacekey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backspacekey@2x.png"; sourceTree = "<group>"; };
+		BE2BBBBD1A5A432700AF6C3B /* doneKey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doneKey@2x.png"; sourceTree = "<group>"; };
+		BE2BBBBE1A5A432700AF6C3B /* HexKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HexKeyboard.xib; sourceTree = "<group>"; };
+		BE2BBBBF1A5A432700AF6C3B /* keyBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keyBackground@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,11 @@
 		19A0EAA71651931B001B196E /* LNNumberpad */ = {
 			isa = PBXGroup;
 			children = (
+				BE2BBBBB1A5A432700AF6C3B /* actionKeyBackground@2x.png */,
+				BE2BBBBC1A5A432700AF6C3B /* backspacekey@2x.png */,
+				BE2BBBBD1A5A432700AF6C3B /* doneKey@2x.png */,
+				BE2BBBBE1A5A432700AF6C3B /* HexKeyboard.xib */,
+				BE2BBBBF1A5A432700AF6C3B /* keyBackground@2x.png */,
 				19701C6016BC896400AC7479 /* LNNumberpad.h */,
 				19701C6116BC896400AC7479 /* LNNumberpad.m */,
 				19701C6216BC896400AC7479 /* LNNumberpad.xib */,
@@ -160,7 +175,7 @@
 		19A0EA5016511287001B196E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Louis Nafziger";
 			};
 			buildConfigurationList = 19A0EA5316511287001B196E /* Build configuration list for PBXProject "LNNumberpad" */;
@@ -186,8 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				19A0EAB31651951A001B196E /* InfoPlist.strings in Resources */,
+				BE2BBBC01A5A432700AF6C3B /* actionKeyBackground@2x.png in Resources */,
+				BE2BBBC11A5A432700AF6C3B /* backspacekey@2x.png in Resources */,
 				19A0EAB41651951A001B196E /* ViewController.xib in Resources */,
 				19701C6416BC896400AC7479 /* LNNumberpad.xib in Resources */,
+				BE2BBBC21A5A432700AF6C3B /* doneKey@2x.png in Resources */,
+				BE2BBBC41A5A432700AF6C3B /* keyBackground@2x.png in Resources */,
+				BE2BBBC31A5A432700AF6C3B /* HexKeyboard.xib in Resources */,
 				1989E1CB16CE052D00E095E8 /* LNHexNumberpad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,12 +260,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -255,10 +281,14 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -268,18 +298,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
