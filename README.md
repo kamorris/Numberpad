@@ -1,3 +1,11 @@
+LNNumberpad
+==========
+
+Changes since v0.9.5
+* Added new keypad for entering hex digits (needed for BriteLamp iOS app, https://itunes.apple.com/us/app/britelamp/id946727057?ls=1&mt=8).
+* Upgraded to a more recent iOS
+* Modified to support iPhone as well (using autolayout)
+
 LNNumberpad v0.9.5
 =========
 
